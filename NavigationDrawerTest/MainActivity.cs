@@ -20,17 +20,10 @@ namespace NavigationDrawerTest
 
     public class MainActivity : AppCompatActivity
 	{
-		DrawerLayout drawerLayout;
-       
-        
+		DrawerLayout drawerLayout; 
         protected override void OnCreate(Bundle bundle)
 		{			
 			base.OnCreate(bundle);
-
-            // Create UI
-
-     
-
             SetContentView(Resource.Layout.Main);
 			drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             // Init toolbar
