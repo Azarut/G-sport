@@ -16,8 +16,6 @@ using RestSharp;
 namespace NavigationDrawerTest
 {
 	[Activity(Label = "G-SPOrT", MainLauncher = true, Icon = "@drawable/icon")]
-    
-
     public class MainActivity : AppCompatActivity
 	{
 		DrawerLayout drawerLayout; 
