@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Главная" />
+    <item
+      android:id="@+id/nav_messages"
+      android:icon="@drawable/ic_question_answer_black_24dp"
+      android:title="Программы" />
+    <item
+      android:id="@+id/nav_friends"
+      android:icon="@drawable/ic_supervisor_account_black_24dp"
+      android:title="Тренировки" />
+    <item
+      android:id="@+id/nav_discussion"
+      android:icon="@drawable/ic_question_answer_black_24dp"
+      android:title="Сообщения" />
+  </group>
+
+  <item android:title="Мое тело">
+    <menu>
+      <item
+        android:title="Питание" />
+      <item
+        android:title="Прогресс" />
+      <item
+        android:title="Витамины" />
+      <item
+        android:title="Фарма" />
+     </menu>
+  </item>
+</menu>
